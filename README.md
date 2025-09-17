@@ -20,7 +20,7 @@
 2. Click "create instance".
 3. Set image to Ubuntu and the machine itself to the smallest or free settings.
 4. Once the machine is running open the terminal.
-5. Enter the command "Chmod 600 (path to private key)" so that your actual machine can read the key.
-6. Enter the command ssh -i (path to private key)ubuntu@(public ip).
+5. Enter the command "chmod 600 (path to private key)" so that your actual machine can read the key.
+6. Enter the command "ssh -i (path to private key)ubuntu@(public ip)".
 7. Enter the commnand 'sudo apt-get update'.
 8. Once you are done using the VM, exit the window and terminate the machine in the the actions tab.
